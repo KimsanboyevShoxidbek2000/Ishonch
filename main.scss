@@ -8,7 +8,6 @@
     width: 100%;
     height: 70px;
     padding: 0 10%;
-    padding-top: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,9 +21,10 @@
 }
 
 .hero{
-    padding-top: 5px;
+    padding-top: 7px;
     display: flex;
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
     .box{
         clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
         background-color: red;
@@ -55,11 +55,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
 }
 .row{
     transform: rotate(-90deg);
-    padding: 0 20px;
 }
 .footer{
     margin-top: 100px;

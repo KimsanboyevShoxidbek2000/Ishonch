@@ -10,7 +10,6 @@
   width: 100%;
   height: 70px;
   padding: 0 10%;
-  padding-top: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -31,11 +30,12 @@
 }
 
 .hero {
-  padding-top: 5px;
+  padding-top: 7px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .hero .box {
@@ -68,7 +68,8 @@
   background-size: cover;
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
-  height: 390px;
+  min-height: 390px;
+  min-width: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -78,13 +79,11 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 20px;
 }
 
 .row {
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg);
-  padding: 0 20px;
 }
 
 .footer {
