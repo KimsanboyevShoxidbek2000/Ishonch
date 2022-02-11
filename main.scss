@@ -50,7 +50,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     transform: rotate(90deg);
-    height: 390px;
+    min-height: 390px;
+    min-width: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
