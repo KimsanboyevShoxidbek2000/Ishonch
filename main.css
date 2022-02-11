@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  height: 70px;
+  padding: 0 10%;
+  padding-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #7fbdfa;
+}
+
+.navbar .logo {
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.hero {
+  padding-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.hero .box {
+  -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+          clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  background-color: red;
+  width: 150px;
+  height: 100px;
+}
+
+.hero .box:nth-child(2) {
+  -webkit-transform: translateY(50px);
+          transform: translateY(50px);
+}
+
+.hero .box:nth-child(1) {
+  -webkit-transform: translateX(25px);
+          transform: translateX(25px);
+}
+
+.hero .box:nth-child(3) {
+  -webkit-transform: translateX(-25px);
+          transform: translateX(-25px);
+}
+
+.container {
+  background: url("./images/bgImg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  height: 390px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
+}
+
+.row {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  padding: 0 20px;
+}
+
+.footer {
+  margin-top: 100px;
+  width: 100%;
+  height: 100px;
+  background-color: #7fbdfa;
+}
+/*# sourceMappingURL=main.css.map */
